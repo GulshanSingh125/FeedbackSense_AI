@@ -82,7 +82,7 @@ The notebook you ran reported:
 - After dropping missing/empty rows and exact duplicate text-label pairs: 320 rows
 - Held-out test accuracy: 98.4% on 64 test examples
 
-These values are from your notebook output, not a guarantee that every run or repository version will produce the same result. The large reduction from 7,000 raw rows to 320 unique pairs suggests repeated/template-like content. The 98.4% accuracy may be optimistic and should not be represented as expected performance on real customer feedback. Inspect near-duplicates and validate on independently collected, representative data before any real deployment.
+These values are from the notebook output, not a guarantee that every run or repository version will produce the same result. The large reduction from 7,000 raw rows to 320 unique pairs suggests repeated/template-like content. The 98.4% accuracy may be optimistic and should not be represented as expected performance on real customer feedback. Inspect near-duplicates and validate on independently collected, representative data before any real deployment.
 
 ## Responsible use and limitations
 
@@ -92,18 +92,3 @@ These values are from your notebook output, not a guarantee that every run or re
 - Avoid using personal data unless you have a lawful and appropriate basis to process it.
 - The dataset is synthetic, so real-world language, misspellings, context, and class balance may differ.
 
-## AI tools disclosure
-
-If you used ChatGPT or another AI coding assistant to help plan, generate, debug, or document this project, disclose that assistance in the submission according to the internship instructions. Review and understand all code before submitting it.
-
-## Assignment coverage
-
-This project report addresses:
-1. Problem statement
-2. Dataset/source of data
-3. Approach and methodology
-4. Tools/libraries used
-5. Model or AI approach
-6. Results/evaluation
-7. Key observations
-8. Possible real-world application
