@@ -1,0 +1,14 @@
+# Python environments and cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Local dataset and generated artifacts (remove these rules if you want to commit them)
+data/*.csv
+models/*.joblib
+reports/*.txt
+
+# Secrets
+.env
